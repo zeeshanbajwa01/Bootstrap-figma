@@ -1,0 +1,191 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+}
+@font-face {
+    font-family: harmonia;
+    src: url("/HarmoniaSans/HarmoniaSansProCyr-Regular.ttf");
+}
+:root{
+    --bg-card:#272D35;
+    --bg-total-fiance:#52449B;
+    --bg-total-expenses:#6F4CA4;
+}
+#paint0_linear_1_996{
+    background: #000;
+}
+/* Utility classes */
+.br-1{
+    border-radius: 1rem;
+}
+.mr-1{
+    margin-right: 1rem;
+}
+.hidden{
+    display: none;
+}
+.pl-1{
+    padding-left: 1rem;
+}
+.pl-2{
+    padding-left: 2rem;
+}
+.ml-2{
+margin-left: 2rem;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+body{
+    font-family: harmonia;
+}
+svg{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main-container{
+    height: 100vh;
+}
+.svg-dashboard-sidebar{
+    width: 1rem;
+    height: 1.4rem; 
+}
+.mail-message-svg,.bell-notification-svg{
+    width: 1.58rem;
+    height: 1.519rem;
+}
+.profile-user-icon-svg,.profile-messenger-icon-svg,.profile-document-icon-svg{
+width: 2rem;
+height: 1.519rem;
+}
+.total-finance-svg{
+    width: 5rem;
+    height: 5rem;
+}
+.dashboard-container{
+    background-color: var(--bg-card);
+}
+.line{
+    border-top: 1px solid #ccc;
+    width: 75%;
+}
+.right-sidebar-line{
+    border-top: 1px solid #929292;
+    width: 75%;
+    margin: auto;
+}
+.email-icon,.bell-icon{
+    background-color: var(--bg-card);
+}
+.profile-user-icon,.profile-messenger-icon,.profile-document-icon{
+    background-color: var(--bg-total-expenses);
+}
+.email-circle-container,.bell-circle-container{
+    width: 0.7rem;
+    height: 0.7rem;
+    right: 0;
+}
+.logout-text{
+    color: tomato;
+}
+.search-bar-container{
+    width: 80%;
+}
+.search-bar-container{
+    background-color: var(--bg-card);
+}
+.search-text{
+    margin-left: 1.5rem;
+}
+.profile-image img{
+    width: 5rem;
+    height: 5rem;
+}
+.project-manager-container img{
+    width: 3rem;
+    height: 3rem;
+}
+/* .graph-image img{
+width: 40%;
+} */
+.right-sidebar,.right-sidebar-bottom{
+    background-color: #272D35;
+}
+.send-money-circle-svg-icon{
+    width: 2rem;
+    height:2rem;
+}
+.send-money-circle-text::before{
+    content: url(SVG/Ellipse\ 8\ \(1\).svg);
+}
+.result-archieved-text::before{
+    content: url(SVG/Ellipse\ 13.svg);
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+}
+.result-process-text::before{
+    content: url(/SVG/Ellipse\ 14\ \(1\).svg);
+    height: 0.5rem;
+    width: 0.5rem;
+    display: block;
+}
+
+.total-finance-container,.finance-svg-container{
+    padding: 1rem 2rem;
+    background-color: var(--bg-total-fiance);
+    
+}
+.total-expence-container,.expence-svg-container{
+    padding: 1rem 2rem;
+    background-color: var(--bg-total-expenses);
+   
+}
+.upgrade-svg-icon svg{
+width: 3rem;
+height: 3rem;
+}
+.upgrade-circle{ 
+        border: 4px solid yellow;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 50%; 
+}
+.finance-dashboard-graph{
+    background-color: var(--bg-card);
+}
+.graph-heading-text,.finance-target-text{
+    text-align: center;
+}
+.graph-text-vertically span{
+    padding: 1rem;
+}
+.graph-text-horizently span{
+    padding: 0.3rem;
+}
+.finance-target-svg{
+    width: 10rem;
+    height: 10rem;
+}
+.finance-target{
+    background-color: var(--bg-card);  
+}
+.finance-dashboard-graph{
+    width: 55%;
+}
+.right-side-bar-container{
+    width: 23%;
+}
+.graph-text-vertically{
+    position: relative;
+}
+.graph-image{
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+}
+
+
