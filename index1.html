@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,194 +10,677 @@
     <link rel="stylesheet" href="/style.css">
 
 </head>
-<body>
-    
-    
-        <div class="row bg-dark">
-          <div class="col-2 ">
-            <div class="dashboard-main-container d-flex gap-1 p-3 align-items-center cursor-pointer">
-            <div class="dashboard-icon-text ">            
-                <div class="dashboard-svg">
-                    <svg class="svg-dashboard-sidebar d-flex">
-                        <use href="#dash-svg"> </use>
-                    </svg>
-                </div>
-                 <Span>Dashboard</Span> 
- <!-- ---------------------------------------------------------- -->
 
-                    <div class="dashboard-icon-text d-flex  p-3 align-items-center">
-                        <div class="dashboard-svg mr-1">
-                            <svg class="svg-dashboard-sidebar d-flex">
-                                <use href="#doc-svg"> </use>
-                            </svg>
+<body>
+
+    <div class="main-container">
+        <div class="row bg-dark m-0 p-4">
+            <div class="col-2 p-0 ">
+                <div class="sidebar-dashboard">
+                    <div class="bg-dark d-flex justify-content-center">
+                        <div class="dashboard-main-container">
+                            <div class="dashboard-container bg-card d-flex flex-column p-4 br-1 ">
+                                <div
+                                    class="dashboard-icon-text cursor-pointer d-flex p-3 align-items-center cursor-pointer">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#dash-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Dashboard</Span>
+                                </div>
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex  p-4 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#doc-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Document</Span>
+                                </div>
+
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex  p-4 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#payment-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Payment</Span>
+                                </div>
+                                <!-- ---------------------------------------------------------- -->
+
+                                <div class="dashboard-icon-text cursor-pointer d-flex p-4 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#calender-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Calendar</Span>
+                                </div>
+
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex  p-4 pb-5 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#profile-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Profile</Span>
+                                </div>
+                                <!-- ---------------------------------------------------------- -->
+
+                                <div class="spacer-line">
+
+                                </div>
+
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex  p-4 pt-5 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#darkmode-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Darkmode</Span>
+                                </div>
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex  p-4 align-items-center">
+                                    <div class="dashboard-svg mr-1">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#setting-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span>Setting</Span>
+                                </div>
+                                <!-- ---------------------------------------------------------- -->
+                                <div class="dashboard-icon-text cursor-pointer d-flex p-4 align-items-center">
+                                    <div class="dashboard-svg">
+                                        <svg class="svg-dashboard-sidebar d-flex">
+                                            <use href="#logout-svg"> </use>
+                                        </svg>
+                                    </div>
+                                    <Span class="mx-2">Logout</Span>
+                                </div>
+
+                            </div>
+                            <div
+                                class="dashboard-bottom-container d-flex flex-column justify-content-center mt-4 br-1 p-4">
+
+                                <div class="upgrade-circle-container d-flex justify-content-center p-3">
+                                    <div class="circle cursor-pointer d-flex justify-content-center align-items-center position-relative">
+                                        <div class="upgrade-svg-container">
+                                            <div class="upgrade-svg-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40"
+                                                    viewBox="0 0 41 40" fill="none">
+                                                    <ellipse cx="20.3636" cy="20.0035" rx="20.0013" ry="19.8448"
+                                                        fill="url(#paint0_linear_5_236)" />
+                                                    <defs>
+                                                        <linearGradient id="paint0_linear_5_236" x1="0.362305"
+                                                            y1="0.158691" x2="46.8304" y2="10.3404"
+                                                            gradientUnits="userSpaceOnUse">
+                                                            <stop stop-color="#915D3F" />
+                                                            <stop offset="1" stop-color="#633F91" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="upgrade-icon-container position-absolute top-0 start-0 ">
+                                            <svg id="upgrade-icon" width="" height="" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <ellipse cx="8.9985" cy="8.72873" rx="8.48531" ry="8.41892"
+                                                    fill="url(#paint0_linear_5_218)" />
+                                                <defs>
+                                                    <linearGradient id="paint0_linear_5_218" x1="-1.91121" y1="1.52201"
+                                                        x2="5.36197" y2="22.7354" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#DAC400" />
+                                                        <stop offset="1" stop-color="#A36200" />
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="text-color-white text-center p-2 ">Upgrade to Pro</h5>
+                                <span class="text-color-light-white text-center"> Check your magic on this Pro Dashboard
+                                </span>
+                                <!-- ------------------------------------- -->
+                            </div>
                         </div>
-                        <Span>Document</Span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 ps-4">
+                <div class="main-expense-target-container">
+           
+                <div class="row p-0 ">
+                    <div class="col-10">
+                        <div class="search-bar-main-container">
+                            <div class="search-bar ">
+                                <!-- <div class="search-svg text-white">
+                               <svg class="svg-dashboard-sidebar d-flex">
+                                <use href="#search-svg"> </use>
+                            </svg> 
+                            </div> -->
+                                <form class="search-text text-color-light-white">
+                                    <input class=" text-color-light-white d-flex br-1 p-4 w-100" type="serach"
+                                        placeholder="Enter Here to search">
+                                </form>
+                            </div>
+                        </div>
+
+                   
+                    </div>
+                
+                    <div class="col-1">
+                        <div class="Emial-icon-container bg-secondry ">
+                            <div class="email-icon br-1 p-3 bg-card">
+                                <div class="svg-mail-container position-relative ">
+                                    <svg class="mail-message-svg">
+                                        <use href="#message-svg"> </use>
+                                    </svg>
+                                    <div class="email-circle-container rounded-circle total-expense-color position-absolute top-0 end-0">
+                                        <span class="text-color-white d-flex justify-content-center">4</span>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <!-- ------------------------------------------------ -->
+                    <div class="col-1 ">
+                        <div class="bell-icon-container bg-secondry ">
+                            <div class="bell-icon br-1 p-3 bg-card">
+                                <div class="svg-bell-container position-relative">
+                                    <svg class="bell-notification-svg">
+                                        <use href="#bell-svg"> </use>
+                                    </svg>
+                                    <div
+                                        class="bell-circle-container rounded-circle total-expense-color position-absolute top-0 end-0">
+                                        <span class="text-color-white d-flex justify-content-center">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+               
+                    <div class="row mt-4 ">
+                    
+                        <div class="col-6">
+                        <div class="total-finance-container gap-22 p-5 d-flex br-1 justify-content-center align-items-center">
+                            <div class="total-finance-container">
+                                <span class="text-color-white">Total Finance</span>
+                                <h5 class="text-color-white">9,900k<h5>
+                            </div>
+                            <div class="finance-svg-container">
+                                <div class="total-finance-container-svg ">
+                                    <svg id="my-svg" xmlns="http://www.w3.org/2000/svg" width="75" height="75"
+                                        viewBox="0 0 75 75" fill="none">
+                                        <path
+                                            d="M61.4204 58.5673C63.7517 60.6206 67.3477 60.4133 69.0295 57.8013C71.2014 54.428 72.8247 50.7176 73.8265 46.8077C75.2954 41.0749 75.3866 35.076 74.0928 29.3013C72.7989 23.5266 70.1567 18.14 66.3823 13.5821C62.6078 9.02419 57.8081 5.42429 52.3758 3.07674C46.9434 0.729184 41.0326 -0.299366 35.1266 0.0751831C29.2206 0.449732 23.487 2.21675 18.3948 5.23175C13.3025 8.24676 8.99609 12.4241 5.82763 17.4224C3.66659 20.8314 2.07676 24.5563 1.10849 28.4497C0.358727 31.4645 2.672 34.2254 5.76496 34.5162V34.5162C8.85792 34.807 11.5437 32.5017 12.4855 29.5414C13.1658 27.4033 14.1198 25.3538 15.3293 23.4457C17.5473 19.9469 20.5617 17.0227 24.1263 14.9122C27.6909 12.8017 31.7044 11.5648 35.8386 11.3026C39.9728 11.0404 44.1104 11.7604 47.9131 13.4037C51.7157 15.047 55.0754 17.5669 57.7176 20.7575C60.3597 23.948 62.2092 27.7186 63.1149 31.7609C64.0206 35.8032 63.9568 40.0025 62.9286 44.0154C62.3678 46.2039 61.529 48.3031 60.438 50.2637C58.9274 52.9783 59.089 56.5141 61.4204 58.5673V58.5673Z"
+                                            fill="url(#paint0_linear_1_994)" />
+                                        <path
+                                            d="M69.375 37.5C72.4816 37.5 75.0432 40.0323 74.5789 43.104C73.8324 48.043 72.1036 52.8025 69.474 57.0937C65.8605 62.9904 60.6867 67.773 54.5246 70.9127C48.3626 74.0525 41.4523 75.427 34.5578 74.8844C27.6633 74.3418 21.0531 71.9032 15.4581 67.8381C9.86302 63.7731 5.5011 58.24 2.85452 51.8506C0.207942 45.4612 -0.620188 38.4644 0.461687 31.6337C1.54356 24.803 4.4933 18.4045 8.98477 13.1457C12.2533 9.31873 16.2457 6.20377 20.7122 3.9676C23.4901 2.57685 26.6901 4.23052 27.6501 7.18507V7.18507C28.6101 10.1396 26.9477 13.2644 24.2649 14.8307C21.7352 16.3077 19.4589 18.2044 17.5393 20.452C14.3953 24.1332 12.3305 28.6121 11.5732 33.3936C10.8159 38.1751 11.3956 43.0729 13.2482 47.5454C15.1008 52.018 18.1541 55.8912 22.0706 58.7367C25.9872 61.5822 30.6143 63.2893 35.4404 63.6691C40.2666 64.0489 45.1038 63.0867 49.4173 60.8889C53.7307 58.6911 57.3523 55.3433 59.8818 51.2156C61.4262 48.6954 62.5267 45.9444 63.1496 43.0821C63.8103 40.0466 66.2684 37.5 69.375 37.5V37.5Z"
+                                            fill="url(#paint1_linear_1_994)" />
+                                        <path
+                                            d="M29.9337 38.05H28.0437V39.99H26.7237V38.05H24.8337V36.83H26.7237V34.89H28.0437V36.83H29.9337V38.05ZM35.922 34.77L33.262 41H31.842L34.522 34.93H31.102V33.73H35.922V34.77ZM36.7605 37.26C36.7605 36.1067 36.9671 35.2033 37.3805 34.55C37.8005 33.8967 38.4938 33.57 39.4605 33.57C40.4271 33.57 41.1171 33.8967 41.5305 34.55C41.9505 35.2033 42.1605 36.1067 42.1605 37.26C42.1605 38.42 41.9505 39.33 41.5305 39.99C41.1171 40.65 40.4271 40.98 39.4605 40.98C38.4938 40.98 37.8005 40.65 37.3805 39.99C36.9671 39.33 36.7605 38.42 36.7605 37.26ZM40.7805 37.26C40.7805 36.7667 40.7471 36.3533 40.6805 36.02C40.6205 35.68 40.4938 35.4033 40.3005 35.19C40.1138 34.9767 39.8338 34.87 39.4605 34.87C39.0871 34.87 38.8038 34.9767 38.6105 35.19C38.4238 35.4033 38.2971 35.68 38.2305 36.02C38.1705 36.3533 38.1405 36.7667 38.1405 37.26C38.1405 37.7667 38.1705 38.1933 38.2305 38.54C38.2905 38.88 38.4171 39.1567 38.6105 39.37C38.8038 39.5767 39.0871 39.68 39.4605 39.68C39.8338 39.68 40.1171 39.5767 40.3105 39.37C40.5038 39.1567 40.6305 38.88 40.6905 38.54C40.7505 38.1933 40.7805 37.7667 40.7805 37.26ZM43.0653 35.5C43.0653 34.9933 43.212 34.5967 43.5053 34.31C43.8053 34.0233 44.1886 33.88 44.6553 33.88C45.122 33.88 45.502 34.0233 45.7953 34.31C46.0953 34.5967 46.2453 34.9933 46.2453 35.5C46.2453 36.0133 46.0953 36.4133 45.7953 36.7C45.502 36.9867 45.122 37.13 44.6553 37.13C44.1886 37.13 43.8053 36.9867 43.5053 36.7C43.212 36.4133 43.0653 36.0133 43.0653 35.5ZM49.4853 34L45.5553 41H44.1953L48.1153 34H49.4853ZM44.6453 34.72C44.2786 34.72 44.0953 34.98 44.0953 35.5C44.0953 36.0267 44.2786 36.29 44.6453 36.29C44.8253 36.29 44.9653 36.2267 45.0653 36.1C45.1653 35.9667 45.2153 35.7667 45.2153 35.5C45.2153 34.98 45.0253 34.72 44.6453 34.72ZM47.4553 39.49C47.4553 38.9767 47.602 38.58 47.8953 38.3C48.1953 38.0133 48.5786 37.87 49.0453 37.87C49.512 37.87 49.8886 38.0133 50.1753 38.3C50.4686 38.58 50.6153 38.9767 50.6153 39.49C50.6153 40.0033 50.4686 40.4033 50.1753 40.69C49.8886 40.9767 49.512 41.12 49.0453 41.12C48.572 41.12 48.1886 40.9767 47.8953 40.69C47.602 40.4033 47.4553 40.0033 47.4553 39.49ZM49.0353 38.71C48.6553 38.71 48.4653 38.97 48.4653 39.49C48.4653 40.0167 48.6553 40.28 49.0353 40.28C49.4086 40.28 49.5953 40.0167 49.5953 39.49C49.5953 38.97 49.4086 38.71 49.0353 38.71Z"
+                                            fill="white" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_994" x1="37.5" y1="0" x2="37.5" y2="75"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="white" stop-opacity="0.8" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_1_994" x1="0" y1="0" x2="86.1229" y2="26.6359"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#D57DFF" />
+                                                <stop offset="1" stop-color="#A645B6" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="total-expence-container p-5 gap-22 d-flex br-1 justify-content-center align-items-center">
+                            <div class="total-expence-container ">
+                                <span class="text-color-white">Total Expences</span>
+                                <h5 class="text-color-white">8,240k<h5>
+                            </div>
+                            <div class="expence-svg-container">
+                                <div class="total-expence-container-svg ">
+                                    <svg id="my-svg" xmlns="http://www.w3.org/2000/svg" width="75" height="75"
+                                        viewBox="0 0 75 75" fill="none">
+                                        <path
+                                            d="M61.4204 58.5673C63.7517 60.6206 67.3477 60.4133 69.0295 57.8013C71.2014 54.428 72.8247 50.7176 73.8265 46.8077C75.2954 41.0749 75.3866 35.076 74.0928 29.3013C72.7989 23.5266 70.1567 18.14 66.3823 13.5821C62.6078 9.02419 57.8081 5.42429 52.3758 3.07674C46.9434 0.729184 41.0326 -0.299366 35.1266 0.0751831C29.2206 0.449732 23.487 2.21675 18.3948 5.23175C13.3025 8.24676 8.99609 12.4241 5.82763 17.4224C3.66659 20.8314 2.07676 24.5563 1.10849 28.4497C0.358727 31.4645 2.672 34.2254 5.76496 34.5162V34.5162C8.85792 34.807 11.5437 32.5017 12.4855 29.5414C13.1658 27.4033 14.1198 25.3538 15.3293 23.4457C17.5473 19.9469 20.5617 17.0227 24.1263 14.9122C27.6909 12.8017 31.7044 11.5648 35.8386 11.3026C39.9728 11.0404 44.1104 11.7604 47.9131 13.4037C51.7157 15.047 55.0754 17.5669 57.7176 20.7575C60.3597 23.948 62.2092 27.7186 63.1149 31.7609C64.0206 35.8032 63.9568 40.0025 62.9286 44.0154C62.3678 46.2039 61.529 48.3031 60.438 50.2637C58.9274 52.9783 59.089 56.5141 61.4204 58.5673V58.5673Z"
+                                            fill="url(#paint0_linear_1_994)" />
+                                        <path
+                                            d="M69.375 37.5C72.4816 37.5 75.0432 40.0323 74.5789 43.104C73.8324 48.043 72.1036 52.8025 69.474 57.0937C65.8605 62.9904 60.6867 67.773 54.5246 70.9127C48.3626 74.0525 41.4523 75.427 34.5578 74.8844C27.6633 74.3418 21.0531 71.9032 15.4581 67.8381C9.86302 63.7731 5.5011 58.24 2.85452 51.8506C0.207942 45.4612 -0.620188 38.4644 0.461687 31.6337C1.54356 24.803 4.4933 18.4045 8.98477 13.1457C12.2533 9.31873 16.2457 6.20377 20.7122 3.9676C23.4901 2.57685 26.6901 4.23052 27.6501 7.18507V7.18507C28.6101 10.1396 26.9477 13.2644 24.2649 14.8307C21.7352 16.3077 19.4589 18.2044 17.5393 20.452C14.3953 24.1332 12.3305 28.6121 11.5732 33.3936C10.8159 38.1751 11.3956 43.0729 13.2482 47.5454C15.1008 52.018 18.1541 55.8912 22.0706 58.7367C25.9872 61.5822 30.6143 63.2893 35.4404 63.6691C40.2666 64.0489 45.1038 63.0867 49.4173 60.8889C53.7307 58.6911 57.3523 55.3433 59.8818 51.2156C61.4262 48.6954 62.5267 45.9444 63.1496 43.0821C63.8103 40.0466 66.2684 37.5 69.375 37.5V37.5Z"
+                                            fill="url(#paint1_linear_1_994)" />
+                                        <path
+                                            d="M29.9337 38.05H28.0437V39.99H26.7237V38.05H24.8337V36.83H26.7237V34.89H28.0437V36.83H29.9337V38.05ZM35.922 34.77L33.262 41H31.842L34.522 34.93H31.102V33.73H35.922V34.77ZM36.7605 37.26C36.7605 36.1067 36.9671 35.2033 37.3805 34.55C37.8005 33.8967 38.4938 33.57 39.4605 33.57C40.4271 33.57 41.1171 33.8967 41.5305 34.55C41.9505 35.2033 42.1605 36.1067 42.1605 37.26C42.1605 38.42 41.9505 39.33 41.5305 39.99C41.1171 40.65 40.4271 40.98 39.4605 40.98C38.4938 40.98 37.8005 40.65 37.3805 39.99C36.9671 39.33 36.7605 38.42 36.7605 37.26ZM40.7805 37.26C40.7805 36.7667 40.7471 36.3533 40.6805 36.02C40.6205 35.68 40.4938 35.4033 40.3005 35.19C40.1138 34.9767 39.8338 34.87 39.4605 34.87C39.0871 34.87 38.8038 34.9767 38.6105 35.19C38.4238 35.4033 38.2971 35.68 38.2305 36.02C38.1705 36.3533 38.1405 36.7667 38.1405 37.26C38.1405 37.7667 38.1705 38.1933 38.2305 38.54C38.2905 38.88 38.4171 39.1567 38.6105 39.37C38.8038 39.5767 39.0871 39.68 39.4605 39.68C39.8338 39.68 40.1171 39.5767 40.3105 39.37C40.5038 39.1567 40.6305 38.88 40.6905 38.54C40.7505 38.1933 40.7805 37.7667 40.7805 37.26ZM43.0653 35.5C43.0653 34.9933 43.212 34.5967 43.5053 34.31C43.8053 34.0233 44.1886 33.88 44.6553 33.88C45.122 33.88 45.502 34.0233 45.7953 34.31C46.0953 34.5967 46.2453 34.9933 46.2453 35.5C46.2453 36.0133 46.0953 36.4133 45.7953 36.7C45.502 36.9867 45.122 37.13 44.6553 37.13C44.1886 37.13 43.8053 36.9867 43.5053 36.7C43.212 36.4133 43.0653 36.0133 43.0653 35.5ZM49.4853 34L45.5553 41H44.1953L48.1153 34H49.4853ZM44.6453 34.72C44.2786 34.72 44.0953 34.98 44.0953 35.5C44.0953 36.0267 44.2786 36.29 44.6453 36.29C44.8253 36.29 44.9653 36.2267 45.0653 36.1C45.1653 35.9667 45.2153 35.7667 45.2153 35.5C45.2153 34.98 45.0253 34.72 44.6453 34.72ZM47.4553 39.49C47.4553 38.9767 47.602 38.58 47.8953 38.3C48.1953 38.0133 48.5786 37.87 49.0453 37.87C49.512 37.87 49.8886 38.0133 50.1753 38.3C50.4686 38.58 50.6153 38.9767 50.6153 39.49C50.6153 40.0033 50.4686 40.4033 50.1753 40.69C49.8886 40.9767 49.512 41.12 49.0453 41.12C48.572 41.12 48.1886 40.9767 47.8953 40.69C47.602 40.4033 47.4553 40.0033 47.4553 39.49ZM49.0353 38.71C48.6553 38.71 48.4653 38.97 48.4653 39.49C48.4653 40.0167 48.6553 40.28 49.0353 40.28C49.4086 40.28 49.5953 40.0167 49.5953 39.49C49.5953 38.97 49.4086 38.71 49.0353 38.71Z"
+                                            fill="white" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_994" x1="37.5" y1="0" x2="37.5" y2="75"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="white" stop-opacity="0.8" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_1_994" x1="0" y1="0" x2="86.1229" y2="26.6359"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#D57DFF" />
+                                                <stop offset="1" stop-color="#A645B6" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+    
+                                </div>
+    </div>
+                            </div>
+                        </div>
+                        </div>
+
+
+
+                        <div class="row mt-4 ">
+                    <div class="col-6">
+                        <div class="finance-dashboard-graph br-1 pb-4">
+
+                        <div class="graph-heading-text text-center pt-4 ">
+                            <h6 class="text-color-white">Monday, 28 December 2021</h6>
+                        </div>
+
+                        <div class="graph-text-vertically text-color-light-white row">
+                            <div class="d-flex flex-column">
+                                <span>350</span>
+                                <span>300</span>
+                                <span>250</span>
+                                <span>200</span>
+                            </div>
+
+                            <div class="graph-image">
+                                <img src="Traffic.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="graph-text-horizently text-color-light-white px-4 d-flex gap-22">
+
+                            <span>Mon</span>
+                            <span class="">Tue</span>
+                            <span>Wed</span>
+                            <span>Thur</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+                            <span>Sun</span>
+                        </div>
+                    </div></div>
+                    <div class="col-6">
+                        <div class="finance-target br-1 pb-4">
+
+                        <div class="finance-target-text text-center py-4 ">
+                            <h6 class="text-color-white">Your Finance Target</h6>
+                        </div>
+                        <div class="finance-target-svg-container d-flex justify-content-center">
+                            <div class="finance-target-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 177 179"
+                                    fill="none">
+                                    <path
+                                        d="M69.6634 36.5946C68.2647 32.8183 70.1874 28.578 74.101 27.6287C85.0023 24.9845 96.4629 25.3152 107.266 28.6544C120.401 32.7144 131.829 40.995 139.778 52.2121C147.727 63.4292 151.753 76.9557 151.23 90.6939C150.708 104.432 145.668 117.614 136.89 128.195C128.113 138.777 116.089 146.166 102.684 149.218C89.2786 152.269 75.2411 150.812 62.7485 145.072C50.2559 139.332 40.0063 129.631 33.5893 117.472C28.3118 107.473 25.8692 96.2704 26.4538 85.0682C26.6636 81.0466 30.4757 78.3736 34.4455 79.0505C38.4153 79.7273 41.0255 83.5031 40.9588 87.5296C40.8261 95.545 42.7087 103.507 46.4867 110.666C51.4052 119.985 59.2614 127.421 68.8369 131.821C78.4124 136.22 89.172 137.337 99.447 134.998C109.722 132.659 118.938 126.995 125.666 118.885C132.394 110.774 136.257 100.67 136.658 90.1401C137.058 79.6099 133.972 69.2419 127.879 60.6441C121.786 52.0463 113.027 45.6992 102.959 42.5873C95.2258 40.1969 87.0528 39.8179 79.2 41.4292C75.2551 42.2387 71.0621 40.371 69.6634 36.5946Z"
+                                        fill="white" />
+                                    <g filter="url(#filter0_d_1_705)">
+                                        <path
+                                            d="M127.889 127.39C130.702 130.203 130.725 134.802 127.607 137.273C119.222 143.916 109.237 148.321 98.5917 150.007C85.5653 152.07 72.22 149.956 60.4687 143.969C48.7174 137.981 39.1633 128.427 33.1756 116.676C27.188 104.924 25.0744 91.579 27.1376 78.5525C29.2007 65.5261 35.3349 53.4872 44.6608 44.1613C53.9867 34.8354 66.0256 28.7012 79.0521 26.638C92.0785 24.5749 105.424 26.6885 117.175 32.6761C126.778 37.5691 134.914 44.8439 140.835 53.7531C143.037 57.0665 141.594 61.4334 138.05 63.2396C134.505 65.0458 130.208 63.5953 127.892 60.36C123.432 54.1283 117.524 49.0239 110.634 45.5133C101.594 40.9069 91.3272 39.2809 81.3059 40.8681C71.2845 42.4553 62.0229 47.1744 54.8484 54.3489C47.6739 61.5234 42.9548 70.785 41.3676 80.8064C39.7804 90.8277 41.4065 101.094 46.0128 110.135C50.6191 119.175 57.9692 126.525 67.0096 131.132C76.05 135.738 86.3166 137.364 96.3379 135.777C103.976 134.567 111.172 131.538 117.339 126.99C120.541 124.628 125.076 124.576 127.889 127.39Z"
+                                            fill="url(#paint0_diamond_1_705)" />
+                                    </g>
+                                    <path
+                                        d="M81.1447 85.54L75.8247 98H72.9847L78.3447 85.86H71.5047V83.46H81.1447V85.54ZM85.2617 90.28C83.9284 89.5867 83.2617 88.5133 83.2617 87.06C83.2617 86.34 83.4417 85.6867 83.8017 85.1C84.1751 84.5 84.7284 84.0267 85.4617 83.68C86.2084 83.32 87.1151 83.14 88.1817 83.14C89.2484 83.14 90.1484 83.32 90.8817 83.68C91.6284 84.0267 92.1817 84.5 92.5417 85.1C92.9151 85.6867 93.1017 86.34 93.1017 87.06C93.1017 87.7933 92.9217 88.44 92.5617 89C92.2017 89.5467 91.7217 89.9733 91.1217 90.28C91.8551 90.6 92.4284 91.0667 92.8417 91.68C93.2551 92.2933 93.4617 93.02 93.4617 93.86C93.4617 94.7667 93.2284 95.56 92.7617 96.24C92.3084 96.9067 91.6817 97.42 90.8817 97.78C90.0817 98.14 89.1817 98.32 88.1817 98.32C87.1817 98.32 86.2817 98.14 85.4817 97.78C84.6951 97.42 84.0684 96.9067 83.6017 96.24C83.1484 95.56 82.9217 94.7667 82.9217 93.86C82.9217 93.02 83.1284 92.2933 83.5417 91.68C83.9551 91.0533 84.5284 90.5867 85.2617 90.28ZM90.3817 87.46C90.3817 86.8067 90.1817 86.3 89.7817 85.94C89.3951 85.58 88.8617 85.4 88.1817 85.4C87.5151 85.4 86.9817 85.58 86.5817 85.94C86.1951 86.3 86.0017 86.8133 86.0017 87.48C86.0017 88.08 86.2017 88.56 86.6017 88.92C87.0151 89.28 87.5417 89.46 88.1817 89.46C88.8217 89.46 89.3484 89.28 89.7617 88.92C90.1751 88.5467 90.3817 88.06 90.3817 87.46ZM88.1817 91.5C87.4217 91.5 86.8017 91.6933 86.3217 92.08C85.8551 92.4667 85.6217 93.02 85.6217 93.74C85.6217 94.4067 85.8484 94.9533 86.3017 95.38C86.7684 95.7933 87.3951 96 88.1817 96C88.9684 96 89.5884 95.7867 90.0417 95.36C90.4951 94.9333 90.7217 94.3933 90.7217 93.74C90.7217 93.0333 90.4884 92.4867 90.0217 92.1C89.5551 91.7 88.9417 91.5 88.1817 91.5ZM95.3533 87C95.3533 85.9867 95.6466 85.1933 96.2333 84.62C96.8333 84.0467 97.5999 83.76 98.5333 83.76C99.4666 83.76 100.227 84.0467 100.813 84.62C101.413 85.1933 101.713 85.9867 101.713 87C101.713 88.0267 101.413 88.8267 100.813 89.4C100.227 89.9733 99.4666 90.26 98.5333 90.26C97.5999 90.26 96.8333 89.9733 96.2333 89.4C95.6466 88.8267 95.3533 88.0267 95.3533 87ZM108.193 84L100.333 98H97.6133L105.453 84H108.193ZM98.5133 85.44C97.7799 85.44 97.4133 85.96 97.4133 87C97.4133 88.0533 97.7799 88.58 98.5133 88.58C98.8733 88.58 99.1533 88.4533 99.3533 88.2C99.5533 87.9333 99.6533 87.5333 99.6533 87C99.6533 85.96 99.2733 85.44 98.5133 85.44ZM104.133 94.98C104.133 93.9533 104.427 93.16 105.013 92.6C105.613 92.0267 106.38 91.74 107.313 91.74C108.247 91.74 109 92.0267 109.573 92.6C110.16 93.16 110.453 93.9533 110.453 94.98C110.453 96.0067 110.16 96.8067 109.573 97.38C109 97.9533 108.247 98.24 107.313 98.24C106.367 98.24 105.6 97.9533 105.013 97.38C104.427 96.8067 104.133 96.0067 104.133 94.98ZM107.293 93.42C106.533 93.42 106.153 93.94 106.153 94.98C106.153 96.0333 106.533 96.56 107.293 96.56C108.04 96.56 108.413 96.0333 108.413 94.98C108.413 93.94 108.04 93.42 107.293 93.42Z"
+                                        fill="white" />
+                                    <defs>
+                                        <filter id="filter0_d_1_705" x="2.36865" y="5.86902" width="163.512"
+                                            height="172.907" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="12" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.309804 0 0 0 0 0.247059 0 0 0 0 0.568627 0 0 0 0.26 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_1_705" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_705"
+                                                result="shape" />
+                                        </filter>
+                                        <radialGradient id="paint0_diamond_1_705" cx="0" cy="0" r="1"
+                                            gradientUnits="userSpaceOnUse"
+                                            gradientTransform="translate(130.5 36.5) rotate(112.966) scale(178.119 498.723)">
+                                            <stop stop-color="#8A40FC" />
+                                            <stop offset="0.537438" stop-color="#D577F3" />
+                                            <stop offset="0.869792" stop-color="#FA9BC4" />
+                                        </radialGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="result-process-archieved-main-container d-flex w-100 justify-content-center">
+                            <div class="result-archieved-container w-45 pt-4">
+                               <div class=""> <h6 class="result-archieved-text text-color-white d-flex ">Result Achieved</h6> </div>
+                               
+                               <div class="d-flex justify-content-center"> <span class="text-color-light-white">Achieved well and smoothly</span></div>
+                            </div>
+                            <div class="archieved-process-container w-45 pt-4">
+                               <div class=""> <h6 class="result-process-text text-white d-flex gap ml-1">In The Process</h6> </div>
+                              <div class=" d-flex justify-content-center"> <span class="text-color-light-white">Waiting in target process</span> </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="row mt-4 pt-4 bg-card br-1">
+             <div>
+                    <h6 class="text-color-white">Projects Finance</h6> </div>
+              <div class="text-color-light-white d-flex justify-content-between pt-3">
+                <div class="col-3 ">Name</div>
+                <div class="col-2">Progress</div>
+                <div class="col-2">Archieved</div>
+                <div class="col-3">Status</div>
+                <div class="col-1">View All</div>
+            </div> -->
+            </div>
+                    </div>   
+                
+            </div>
+            <div class="col-3 ">
+                <div class="right-sidebar-main-container">
+                    <div class="right-side-bar-container ">
+    
+                        <div class="right-sidebar br-1 py-4 px-4 bg-card">
+    
+                            <div class="profile-image d-flex justify-content-center">
+                                <img src="Ellipse 1.png" alt="">
+                            </div>
+    
+                            <div class="user-info-container d-flex justify-content-center">
+                                <h6 class="ceo-name text-color-white"> Emmie demnson</h6>
+                                <p class="designation text-color-light-white">CEO</p>
+                            </div>
+    
+                            <div class="right-sidebar-profile-icons d-flex justify-content-between mb-5 p-4">
+    
+                                <div class="profile-user-icon br-1 p-2">
+                                    <svg class="profile-user-icon-svg">
+                                        <use href="#user-profile-svg"></use>
+                                    </svg>
+                                </div>
+    
+                                <div class="profile-messenger-icon br-1 p-2">
+                                    <svg class="profile-messenger-icon-svg">
+                                        <use href="#messenger-svg"> </use>
+                                    </svg>
+                                </div>
+                                <div class="profile-document-icon br-1 p-2">
+                                    <svg class="profile-document-icon-svg">
+                                        <use href="#profile-document"> </use>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="right-sidebar-line p-4">
+                                <div class="about-container pt-5">       
+                                    <div>
+                                        <h6 class="text-white">About</h6>
+                                    </div>
+                                    <div class="w-85 "><span class="text-white-50">Organized activities to make money and sell goods and
+                                            services
+                                            for
+                                            a profit</span></div>
+        
+                                </div>
+        
+                                <div class="company-Employeer-container pt-5">
+        
+                                    <div class="project-manager-container d-flex">
+                                        <div class="project-manager-image">
+                                            <img src="image 143.png" alt="">
+                                        </div>
+                                        <div class="project-manager-text-container pl-2">
+                                            <div>
+                                                <h6 class="text-white"> Joinie Joger </h6>
+                                            </div>
+                                            <div> <span class="text-white-50"> Project Manager </span></div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="project-graphic-designer d-flex pt-5">
+                                        <div class="graphic-designer-image">
+                                            <img src="image 142.png" alt="">
+                                        </div>
+                                        <div class="graphic-designer-text-container pl-2">
+                                            <div>
+                                                <h6 class="text-white"> Sarah Hosten </h6>
+                                            </div>
+                                            <div> <span class="text-white-50"> Graphic Designer </span></div>
+                                        </div>
+                                    </div>
+        
+        
+                                    <div class="project-financial-treasurer d-flex pt-5">
+                                        <div class="financial-treasurer-image">
+                                            <img src="image 141.png" alt="">
+                                        </div>
+                                        <div class="financial-treasurer-text-container pl-2">
+                                            <div>
+                                                <h6 class="text-white"> Deckrad Anne </h6>
+                                            </div>
+                                            <div> <span class="text-white-50"> Financial Treasurer </span></div>
+                                        </div>
+                                    </div>
+        
+        
+        
+                                </div>
+                            </div>
+
+                            
+            </div>
+            <div class="right-sidebar-bottom mt-3 br-1 p-4 bg-card">
+                <div>
+                    <h6 class="text-white"> Send Money </h6>
+                </div>
+                <div class="send-money-circle-text d-flex">
+                    <span class="circle-text text-white-50 pl-1 "> Your Card</span>
+                    <div class="send-money-amount-container ml-2">
+                        <h4 class="text-white">$145,000</h4>
                     </div>
 
-                    <!-- ---------------------------------------------------------- -->
-               
-
+                </div>
             </div>
-        </div>
-       
-          </div>
-          <div class="col-8 ">col</div>
-          <div class="col-2 ">col</div>
-       
-          <div class="hidden">
-            <svg id="dash-svg" width="" height="" viewBox=" 0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.00928 11.6016H10.3705" stroke="" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M1 9.78475C1 5.5615 1.4605 5.85625 3.93925 3.5575C5.02375 2.6845 6.71125 1 8.1685 1C9.625 1 11.3463 2.67625 12.4405 3.5575C14.9193 5.85625 15.379 5.5615 15.379 9.78475C15.379 16 13.9098 16 8.1895 16C2.46925 16 1 16 1 9.78475Z"
-                    stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="doc-svg" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none">
-                <path d="M14.7131 15.3296H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M14.7131 12.3297H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M10.7222 9.33032H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4 12.3804C4 17.9153 5.87522 19.7608 11.5 19.7608C17.1257 19.7608 19 17.9153 19 12.3804C19 6.8455 17.1257 5 11.5 5C5.87522 5 4 6.8455 4 12.3804Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="payment-svg" width="" height="" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0.75" y="0.75" width="17.5476" height="13.5" rx="3.25" stroke="" stroke-width="1.5" />
-                <line x1="4.37793" y1="5.91663" x2="11.0412" y2="5.91663" stroke="" stroke-width="1.5"
-                    stroke-linecap="round" />
-                <line x1="14.3555" y1="5.91663" x2="14.8963" y2="5.91663" stroke="" stroke-width="1.5"
-                    stroke-linecap="round" />
-            </svg>
-            <svg id="calender-svg" width="" height="" viewBox="0 0 17 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M1 9.4504C1 3.8253 2.8753 1.95081 8.4996 1.95081C14.1247 1.95081 16 3.8253 16 9.4504C16 15.0755 14.1247 16.95 8.4996 16.95C2.8753 16.95 1 15.0755 1 9.4504Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M1.22266 6.65918H15.7852" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M12.0615 9.8429H12.0694" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M8.50391 9.8429H8.51179" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M4.93945 9.8429H4.94734" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M12.0615 12.9579H12.0694" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M8.50391 12.9579H8.51179" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M4.93945 12.9579H4.94734" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M11.7417 0.776978V3.41486" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M5.26562 0.776978V3.41486" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
-            <svg id="profile-svg" width="" height="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M12 19.478C8.76371 19.478 6 19.0164 6 17.1676C6 15.3188 8.74618 13.6121 12 13.6121C15.2363 13.6121 18 15.3022 18 17.1511C18 18.9991 15.2538 19.478 12 19.478Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M11.9934 11.0501C14.1172 11.0501 15.8386 9.47224 15.8386 7.52544C15.8386 5.57863 14.1172 4 11.9934 4C9.86965 4 8.14748 5.57863 8.14748 7.52544C8.14033 9.46567 9.84972 11.0436 11.9663 11.0501C11.9759 11.0501 11.9847 11.0501 11.9934 11.0501Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="darkmode-svg" width="" height="" viewBox="0 0 19 10" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M13.8182 0H5.18182C2.32318 0 0 2.24167 0 5C0 7.75833 2.32318 10 5.18182 10H13.8182C16.6768 10 19 7.75833 19 5C19 2.24167 16.6768 0 13.8182 0ZM13.8182 8.33333H5.18182C3.27318 8.33333 1.72727 6.84167 1.72727 5C1.72727 3.15833 3.27318 1.66667 5.18182 1.66667H13.8182C15.7268 1.66667 17.2727 3.15833 17.2727 5C17.2727 6.84167 15.7268 8.33333 13.8182 8.33333ZM5.18182 2.5C3.74818 2.5 2.59091 3.61667 2.59091 5C2.59091 6.38333 3.74818 7.5 5.18182 7.5C6.61545 7.5 7.77273 6.38333 7.77273 5C7.77273 3.61667 6.61545 2.5 5.18182 2.5Z"
-                    fill="" />
-            </svg>
-            <svg id="setting-svg" width="" height="" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M8.158 6.89478C9.32084 6.89478 10.2633 7.83719 10.2633 9.00004C10.2633 10.1629 9.32084 11.1053 8.158 11.1053C6.99515 11.1053 6.05273 10.1629 6.05273 9.00004C6.05273 7.83719 6.99515 6.89478 8.158 6.89478Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M15.0362 5.00021C14.4606 3.9962 13.1863 3.65266 12.1903 4.23244C11.324 4.73569 10.2413 4.106 10.2413 3.09867C10.2413 1.93995 9.30811 1 8.1577 1C7.00729 1 6.07407 1.93995 6.07407 3.09867C6.07407 4.106 4.99138 4.73569 4.12589 4.23244C3.12909 3.65266 1.8548 3.9962 1.27918 5.00021C0.704388 6.00421 1.04546 7.2877 2.04227 7.86665C2.90776 8.37073 2.90776 9.62927 2.04227 10.1334C1.04546 10.7131 0.704388 11.9966 1.27918 12.9998C1.8548 14.0038 3.12909 14.3473 4.12506 13.7684H4.12589C4.99138 13.2643 6.07407 13.894 6.07407 14.9013C6.07407 16.06 7.00729 17 8.1577 17C9.30811 17 10.2413 16.06 10.2413 14.9013C10.2413 13.894 11.324 13.2643 12.1903 13.7684C13.1863 14.3473 14.4606 14.0038 15.0362 12.9998C15.6118 11.9966 15.2699 10.7131 14.274 10.1334H14.2731C13.4076 9.62927 13.4076 8.37073 14.274 7.86665C15.2699 7.2877 15.6118 6.00421 15.0362 5.00021Z"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="logout-svg" width="" height="" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.9991 8.67566H7.13623" stroke="" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M14.6016 6.28711L16.9999 8.67562L14.6016 11.0641" stroke="" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M12.5503 4.99724C12.28 2.06484 11.1824 1 6.81655 1C1.00008 1 1.00008 2.89213 1.00008 8.57673C1.00008 14.2613 1.00008 16.1535 6.81655 16.1535C11.1824 16.1535 12.28 15.0886 12.5503 12.1562"
-                    stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="search-svg" width="" height="" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M10.561 2C15.2886 2 19.1219 5.83238 19.1219 10.561C19.1219 15.2895 15.2886 19.1219 10.561 19.1219C5.83238 19.1219 2 15.2895 2 10.561C2 5.83238 5.83238 2 10.561 2Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M19.1844 17.7734C19.9634 17.7734 20.5949 18.4058 20.5949 19.1839C20.5949 19.9639 19.9634 20.5953 19.1844 20.5953C18.4053 20.5953 17.7729 19.9639 17.7729 19.1839C17.7729 18.4058 18.4053 17.7734 19.1844 17.7734Z"
-                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="message-svg" width="" height="" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M24.2023 12.0253C24.2023 12.0253 19.9223 17.1621 16.7918 17.1621C13.6626 17.1621 9.33447 12.0253 9.33447 12.0253"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4.07861 15.9583C4.07861 6.84087 7.25322 3.80261 16.777 3.80261C26.3008 3.80261 29.4754 6.84087 29.4754 15.9583C29.4754 25.0745 26.3008 28.1141 16.777 28.1141C7.25322 28.1141 4.07861 25.0745 4.07861 15.9583Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="bell-svg" width="" height="" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M10.8041 1.35229C4.89172 1.35229 2.32283 6.70595 2.32283 10.245C2.32283 12.8901 2.70632 12.1117 1.24219 15.3383C-0.545743 19.9364 6.6441 21.8158 10.8041 21.8158C14.9628 21.8158 22.1527 19.9364 20.366 15.3383C18.9019 12.1117 19.2854 12.8901 19.2854 10.245C19.2854 6.70595 16.7152 1.35229 10.8041 1.35229Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M13.8836 25.3496C12.1579 27.2772 9.46586 27.3001 7.72363 25.3496" stroke="white"
-                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="user-profile-svg" width="" height="" viewBox="0 0 22 19" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M10.9726 17.8682C7.73355 17.8682 4.96655 17.3782 4.96655 15.4162C4.96655 13.4542 7.71555 11.7462 10.9726 11.7462C14.2116 11.7462 16.9786 13.4382 16.9786 15.3992C16.9786 17.3602 14.2296 17.8682 10.9726 17.8682Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M10.9726 8.94875C13.0986 8.94875 14.8226 7.22575 14.8226 5.09976C14.8226 2.97376 13.0986 1.24976 10.9726 1.24976C8.84659 1.24976 7.12257 2.97376 7.12257 5.09976C7.11659 7.21775 8.82659 8.94175 10.9456 8.94875H10.9726Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M17.3623 7.89166C18.5993 7.56066 19.5113 6.43266 19.5113 5.08966C19.5113 3.68866 18.5183 2.51866 17.1963 2.24866"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M17.9434 11.0444C19.6974 11.0444 21.1954 12.2334 21.1954 13.2954C21.1954 13.9204 20.6784 14.6014 19.8944 14.7854"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M4.58384 7.89166C3.34584 7.56066 2.43384 6.43266 2.43384 5.08966C2.43384 3.68866 3.42784 2.51866 4.74884 2.24866"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M4.00176 11.0444C2.24776 11.0444 0.749756 12.2334 0.749756 13.2954C0.749756 13.9204 1.26676 14.6014 2.05176 14.7854"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="messenger-svg" width="" height="" viewBox="0 0 24 23" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.01294 14.4923L10.0702 10.6853L13.5575 13.3088L16.5494 9.60852" stroke="white"
-                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M20.0365 2.25208C21.1213 2.25208 21.9998 3.09393 21.9998 4.13353C21.9998 5.17215 21.1213 6.01499 20.0365 6.01499C18.9517 6.01499 18.0732 5.17215 18.0732 4.13353C18.0732 3.09393 18.9517 2.25208 20.0365 2.25208Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M21.1484 9.02507C21.2843 9.90119 21.3466 10.8879 21.3466 11.9951C21.3466 18.7867 18.985 21.0499 11.898 21.0499C4.81212 21.0499 2.44946 18.7867 2.44946 11.9951C2.44946 5.2044 4.81212 2.94019 11.898 2.94019C13.0319 2.94019 14.0441 2.99794 14.9451 3.12324"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="profile-document" width="" height="" viewBox="0 0 24 25" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.7443 16.1964H8.83252" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M16.7443 12.4366H8.83252" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path d="M11.8517 8.67737H8.83276" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M3.61011 12.5001C3.61011 19.4371 5.90913 21.7501 12.8051 21.7501C19.7022 21.7501 22.0001 19.4371 22.0001 12.5001C22.0001 5.56312 19.7022 3.25012 12.8051 3.25012C5.90913 3.25012 3.61011 5.56312 3.61011 12.5001Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg id="send-money-circle" width="" height="" viewBox="0 0 17 17" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="8.1342" cy="8.34776" rx="8.08367" ry="8.34776" fill="#FF98BF" />
-            </svg>
+            </div>
+                  </div>
 
-        
+                </div>
+ 
 
+            <div class="hidden">
+                <svg id="dash-svg" width="" height="" viewBox=" 0 0 17 17" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.00928 11.6016H10.3705" stroke="" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 9.78475C1 5.5615 1.4605 5.85625 3.93925 3.5575C5.02375 2.6845 6.71125 1 8.1685 1C9.625 1 11.3463 2.67625 12.4405 3.5575C14.9193 5.85625 15.379 5.5615 15.379 9.78475C15.379 16 13.9098 16 8.1895 16C2.46925 16 1 16 1 9.78475Z"
+                        stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="doc-svg" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none">
+                    <path d="M14.7131 15.3296H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M14.7131 12.3297H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M10.7222 9.33032H8.25977" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4 12.3804C4 17.9153 5.87522 19.7608 11.5 19.7608C17.1257 19.7608 19 17.9153 19 12.3804C19 6.8455 17.1257 5 11.5 5C5.87522 5 4 6.8455 4 12.3804Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="payment-svg" width="" height="" viewBox="0 0 20 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.75" y="0.75" width="17.5476" height="13.5" rx="3.25" stroke="" stroke-width="1.5" />
+                    <line x1="4.37793" y1="5.91663" x2="11.0412" y2="5.91663" stroke="" stroke-width="1.5"
+                        stroke-linecap="round" />
+                    <line x1="14.3555" y1="5.91663" x2="14.8963" y2="5.91663" stroke="" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+                <svg id="calender-svg" width="" height="" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 9.4504C1 3.8253 2.8753 1.95081 8.4996 1.95081C14.1247 1.95081 16 3.8253 16 9.4504C16 15.0755 14.1247 16.95 8.4996 16.95C2.8753 16.95 1 15.0755 1 9.4504Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M1.22266 6.65918H15.7852" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M12.0615 9.8429H12.0694" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M8.50391 9.8429H8.51179" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.93945 9.8429H4.94734" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M12.0615 12.9579H12.0694" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M8.50391 12.9579H8.51179" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.93945 12.9579H4.94734" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M11.7417 0.776978V3.41486" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M5.26562 0.776978V3.41486" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <svg id="profile-svg" width="" height="" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 19.478C8.76371 19.478 6 19.0164 6 17.1676C6 15.3188 8.74618 13.6121 12 13.6121C15.2363 13.6121 18 15.3022 18 17.1511C18 18.9991 15.2538 19.478 12 19.478Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.9934 11.0501C14.1172 11.0501 15.8386 9.47224 15.8386 7.52544C15.8386 5.57863 14.1172 4 11.9934 4C9.86965 4 8.14748 5.57863 8.14748 7.52544C8.14033 9.46567 9.84972 11.0436 11.9663 11.0501C11.9759 11.0501 11.9847 11.0501 11.9934 11.0501Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="darkmode-svg" width="" height="" viewBox="0 0 19 10" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.8182 0H5.18182C2.32318 0 0 2.24167 0 5C0 7.75833 2.32318 10 5.18182 10H13.8182C16.6768 10 19 7.75833 19 5C19 2.24167 16.6768 0 13.8182 0ZM13.8182 8.33333H5.18182C3.27318 8.33333 1.72727 6.84167 1.72727 5C1.72727 3.15833 3.27318 1.66667 5.18182 1.66667H13.8182C15.7268 1.66667 17.2727 3.15833 17.2727 5C17.2727 6.84167 15.7268 8.33333 13.8182 8.33333ZM5.18182 2.5C3.74818 2.5 2.59091 3.61667 2.59091 5C2.59091 6.38333 3.74818 7.5 5.18182 7.5C6.61545 7.5 7.77273 6.38333 7.77273 5C7.77273 3.61667 6.61545 2.5 5.18182 2.5Z"
+                        fill="" />
+                </svg>
+                <svg id="setting-svg" width="" height="" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M8.158 6.89478C9.32084 6.89478 10.2633 7.83719 10.2633 9.00004C10.2633 10.1629 9.32084 11.1053 8.158 11.1053C6.99515 11.1053 6.05273 10.1629 6.05273 9.00004C6.05273 7.83719 6.99515 6.89478 8.158 6.89478Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M15.0362 5.00021C14.4606 3.9962 13.1863 3.65266 12.1903 4.23244C11.324 4.73569 10.2413 4.106 10.2413 3.09867C10.2413 1.93995 9.30811 1 8.1577 1C7.00729 1 6.07407 1.93995 6.07407 3.09867C6.07407 4.106 4.99138 4.73569 4.12589 4.23244C3.12909 3.65266 1.8548 3.9962 1.27918 5.00021C0.704388 6.00421 1.04546 7.2877 2.04227 7.86665C2.90776 8.37073 2.90776 9.62927 2.04227 10.1334C1.04546 10.7131 0.704388 11.9966 1.27918 12.9998C1.8548 14.0038 3.12909 14.3473 4.12506 13.7684H4.12589C4.99138 13.2643 6.07407 13.894 6.07407 14.9013C6.07407 16.06 7.00729 17 8.1577 17C9.30811 17 10.2413 16.06 10.2413 14.9013C10.2413 13.894 11.324 13.2643 12.1903 13.7684C13.1863 14.3473 14.4606 14.0038 15.0362 12.9998C15.6118 11.9966 15.2699 10.7131 14.274 10.1334H14.2731C13.4076 9.62927 13.4076 8.37073 14.274 7.86665C15.2699 7.2877 15.6118 6.00421 15.0362 5.00021Z"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="logout-svg" width="" height="" viewBox="0 0 18 17" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.9991 8.67566H7.13623" stroke="" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M14.6016 6.28711L16.9999 8.67562L14.6016 11.0641" stroke="" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M12.5503 4.99724C12.28 2.06484 11.1824 1 6.81655 1C1.00008 1 1.00008 2.89213 1.00008 8.57673C1.00008 14.2613 1.00008 16.1535 6.81655 16.1535C11.1824 16.1535 12.28 15.0886 12.5503 12.1562"
+                        stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="search-svg" width="" height="" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.561 2C15.2886 2 19.1219 5.83238 19.1219 10.561C19.1219 15.2895 15.2886 19.1219 10.561 19.1219C5.83238 19.1219 2 15.2895 2 10.561C2 5.83238 5.83238 2 10.561 2Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M19.1844 17.7734C19.9634 17.7734 20.5949 18.4058 20.5949 19.1839C20.5949 19.9639 19.9634 20.5953 19.1844 20.5953C18.4053 20.5953 17.7729 19.9639 17.7729 19.1839C17.7729 18.4058 18.4053 17.7734 19.1844 17.7734Z"
+                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="message-svg" width="" height="" viewBox="0 0 33 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M24.2023 12.0253C24.2023 12.0253 19.9223 17.1621 16.7918 17.1621C13.6626 17.1621 9.33447 12.0253 9.33447 12.0253"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4.07861 15.9583C4.07861 6.84087 7.25322 3.80261 16.777 3.80261C26.3008 3.80261 29.4754 6.84087 29.4754 15.9583C29.4754 25.0745 26.3008 28.1141 16.777 28.1141C7.25322 28.1141 4.07861 25.0745 4.07861 15.9583Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="bell-svg" width="" height="" viewBox="0 0 22 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.8041 1.35229C4.89172 1.35229 2.32283 6.70595 2.32283 10.245C2.32283 12.8901 2.70632 12.1117 1.24219 15.3383C-0.545743 19.9364 6.6441 21.8158 10.8041 21.8158C14.9628 21.8158 22.1527 19.9364 20.366 15.3383C18.9019 12.1117 19.2854 12.8901 19.2854 10.245C19.2854 6.70595 16.7152 1.35229 10.8041 1.35229Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M13.8836 25.3496C12.1579 27.2772 9.46586 27.3001 7.72363 25.3496" stroke="white"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="user-profile-svg" width="" height="" viewBox="0 0 22 19" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.9726 17.8682C7.73355 17.8682 4.96655 17.3782 4.96655 15.4162C4.96655 13.4542 7.71555 11.7462 10.9726 11.7462C14.2116 11.7462 16.9786 13.4382 16.9786 15.3992C16.9786 17.3602 14.2296 17.8682 10.9726 17.8682Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.9726 8.94875C13.0986 8.94875 14.8226 7.22575 14.8226 5.09976C14.8226 2.97376 13.0986 1.24976 10.9726 1.24976C8.84659 1.24976 7.12257 2.97376 7.12257 5.09976C7.11659 7.21775 8.82659 8.94175 10.9456 8.94875H10.9726Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M17.3623 7.89166C18.5993 7.56066 19.5113 6.43266 19.5113 5.08966C19.5113 3.68866 18.5183 2.51866 17.1963 2.24866"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M17.9434 11.0444C19.6974 11.0444 21.1954 12.2334 21.1954 13.2954C21.1954 13.9204 20.6784 14.6014 19.8944 14.7854"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M4.58384 7.89166C3.34584 7.56066 2.43384 6.43266 2.43384 5.08966C2.43384 3.68866 3.42784 2.51866 4.74884 2.24866"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M4.00176 11.0444C2.24776 11.0444 0.749756 12.2334 0.749756 13.2954C0.749756 13.9204 1.26676 14.6014 2.05176 14.7854"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="messenger-svg" width="" height="" viewBox="0 0 24 23" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.01294 14.4923L10.0702 10.6853L13.5575 13.3088L16.5494 9.60852" stroke="white"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20.0365 2.25208C21.1213 2.25208 21.9998 3.09393 21.9998 4.13353C21.9998 5.17215 21.1213 6.01499 20.0365 6.01499C18.9517 6.01499 18.0732 5.17215 18.0732 4.13353C18.0732 3.09393 18.9517 2.25208 20.0365 2.25208Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M21.1484 9.02507C21.2843 9.90119 21.3466 10.8879 21.3466 11.9951C21.3466 18.7867 18.985 21.0499 11.898 21.0499C4.81212 21.0499 2.44946 18.7867 2.44946 11.9951C2.44946 5.2044 4.81212 2.94019 11.898 2.94019C13.0319 2.94019 14.0441 2.99794 14.9451 3.12324"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="profile-document" width="" height="" viewBox="0 0 24 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.7443 16.1964H8.83252" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M16.7443 12.4366H8.83252" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M11.8517 8.67737H8.83276" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.61011 12.5001C3.61011 19.4371 5.90913 21.7501 12.8051 21.7501C19.7022 21.7501 22.0001 19.4371 22.0001 12.5001C22.0001 5.56312 19.7022 3.25012 12.8051 3.25012C5.90913 3.25012 3.61011 5.56312 3.61011 12.5001Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg id="send-money-circle" width="" height="" viewBox="0 0 17 17" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="8.1342" cy="8.34776" rx="8.08367" ry="8.34776" fill="#FF98BF" />
+                </svg>
+                <svg id="upgrade-icon" width="" height="" viewBox="0 0 18 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="8.9985" cy="8.72873" rx="8.48531" ry="8.41892" fill="url(#paint0_linear_5_218)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_5_218" x1="-1.91121" y1="1.52201" x2="5.36197" y2="22.7354"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#DAC400" />
+                            <stop offset="1" stop-color="#A36200" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+</div>
 </body>
+
 </html>
